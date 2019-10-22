@@ -13,9 +13,6 @@ const Navigation = () => (
     <AniLink fade to="/projects">
       Projects
     </AniLink>
-    <AniLink fade to="/contact">
-      Contact
-    </AniLink>
   </div>
 )
 
