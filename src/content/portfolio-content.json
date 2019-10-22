@@ -1,5 +1,5 @@
 {
-  "portfolio": [
+  "content": [
     {
       "title": "Flow",
       "description": "Since I'm constantly learning and working on projects, I always had to keep a mental note of my work flow. As a result, this projects was created to allow a user to create and visualize a workflow pipeline. As tasks are created, they can be moved through the pipeline. This enables you to keep track of all the tasks you're working on and their statuses within a project.",
