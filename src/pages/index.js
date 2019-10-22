@@ -2,19 +2,20 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+import Navigation from "../components/navigation"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <Navigation />
+    <h1>Hey, what's good! I'm Jeremey Lee, a software engineer</h1>
+    <p>Most of my work revolves around full-stack web development</p>
+    <p>
+      The main technologies that I use are Javascript, React, Node.js, HTML, and
+      CSS
+    </p>
+    <p>Want more from me? Ask and you shall receive</p>
   </Layout>
 )
 
