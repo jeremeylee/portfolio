@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink"
 
 const Navigation = () => (
   <div
@@ -7,9 +7,15 @@ const Navigation = () => (
       display: "flex",
     }}
   >
-    <Link to="/">Home</Link>
-    <Link to="/projects">Projects</Link>
-    <Link to="/contact">Contact</Link>
+    <AniLink fade to="/">
+      Home
+    </AniLink>
+    <AniLink fade to="/projects">
+      Projects
+    </AniLink>
+    <AniLink fade to="/contact">
+      Contact
+    </AniLink>
   </div>
 )
 
