@@ -23,6 +23,7 @@ const Project = props => {
             Live Demo
             <FontAwesomeIcon icon={faExternalLinkAlt} />
           </button>
+
           <button>
             <FontAwesomeIcon icon={faGithub} />
             View Source
