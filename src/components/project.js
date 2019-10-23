@@ -1,5 +1,6 @@
 import React from "react"
 import "./project.css"
+import TechCard from "./techcard"
 
 const Project = props => {
   const techs = props.tech.split(",")
@@ -9,9 +10,12 @@ const Project = props => {
         <div class="project-content">
           <h3>{props.title}</h3>
           <p>{props.description}</p>
-          {techs.map(tech => (
-            <p>{tech}</p>
-          ))}
+          <div>
+            {techs.map(tech => (
+              <TechCard tech={tech} />
+            ))}
+          </div>
+
           <p>{props.live}</p>
           <p>{props.source}</p>
         </div>

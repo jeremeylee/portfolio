@@ -3,28 +3,28 @@
     {
       "title": "Flow (In Progress)",
       "description": "This projects was created to allow a user to create and visualize a workflow pipeline. As tasks are created, they can be moved through the pipeline. This enables you to keep track of all the tasks you're working on and their statuses within a project.",
-      "tech": "Javascript, HTML, CSS, React, Node.js, MongoDB",
+      "tech": "JavaScript, HTML, CSS, React, Node.js, MongoDB",
       "live": "",
       "source": "https://github.com/jeremeylee/Flow"
     },
     {
       "title": "Real-Time Messaging",
       "description": "Messaging services such a Facebook Messenger, Skype, and Discord are huge. I wanted to take a shot at creating a real-time messaging service as well.",
-      "tech": "Javascript, HTML, CSS, React, Node.js, MongoDB",
+      "tech": "JavaScript, HTML, CSS, React, Node.js, MongoDB",
       "live": "jeremeychat.herokuapp.com",
       "source": "https://github.com/jeremeylee/chat-app"
     },
     {
       "title": "URL Shortener",
       "description": "URL Shorteners are a pretty straight forward back end project. I developed one to reinforce my Node.js skills",
-      "tech": "Javascript, HTML, CSS, React, Node.js, MongoDB",
+      "tech": "JavaScript, HTML, CSS, React, Node.js, MongoDB",
       "live": "",
       "source": "https://github.com/jeremeylee/url-shortener"
     },
     {
       "title": "WETnet",
       "description": "This was my senior design project that was developed with the help of SDG&E. I worked with a team of 19 engineers to design an ultra low-power, campus-wide weather network that collected granular weather and environmental data",
-      "tech": "Javascript, HTML, CSS, C, Python",
+      "tech": "JavaScript, HTML, CSS, C, Python",
       "live": "http://wetnet.sdsu.edu/",
       "source": "https://github.com/SDSUWETnet2017"
     }
