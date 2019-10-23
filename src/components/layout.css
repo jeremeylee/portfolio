@@ -2,7 +2,7 @@ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  background: #e9eaf2;
+  background: #e9ebee;
 }
 body {
   margin: 0;
@@ -41,8 +41,10 @@ template {
   display: none;
 }
 a {
+  color: black;
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
+  text-decoration: none;
 }
 a:active,
 a:hover {

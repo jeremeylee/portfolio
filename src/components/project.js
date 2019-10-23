@@ -12,24 +12,24 @@ const Project = props => {
     <div class="project-card">
       <div class="content-background">
         <div class="project-content">
-          <h3>{props.title}</h3>
-          <p>{props.description}</p>
+          <div class="description">
+            <h3>{props.title}</h3>
+            <p>{props.description}</p>
+          </div>
           <div>
             {techs.map(tech => (
               <TechCard tech={tech} />
             ))}
           </div>
-          <button>
-            Live Demo
-            <FontAwesomeIcon icon={faExternalLinkAlt} />
-          </button>
+          <div class="button-container">
+            <a class="demo-button" target="_blank" href={props.live}>
+              Live Demo <FontAwesomeIcon icon={faExternalLinkAlt} />
+            </a>
 
-          <button>
-            <FontAwesomeIcon icon={faGithub} />
-            View Source
-          </button>
-          <p>{props.live}</p>
-          <p>{props.source}</p>
+            <a class="live-button" target="_blank" href={props.source}>
+              <FontAwesomeIcon icon={faGithub} /> View Source
+            </a>
+          </div>
         </div>
       </div>
     </div>

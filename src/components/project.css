@@ -17,5 +17,50 @@
 .project-content {
   height: 500px;
   width: 600px;
-  padding: 40px;
+  padding: 50px;
+}
+
+.description {
+  min-height: 200px;
+}
+
+.button-container {
+  margin-top: 50px;
+}
+
+.demo-button {
+  margin-right: 20px;
+  padding: 10px;
+  background: #444fa6;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.85em;
+  color: white;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition: all 0.15s ease;
+}
+
+.demo-button:hover {
+  background: #7c85cf;
+  box-shadow: 0 4px 8px rgba(50, 50, 93, 0.11), 0 1px 6px rgba(0, 0, 0, 0.08);
+}
+
+.live-button {
+  margin-right: 20px;
+  padding: 10px;
+  background: #e9eaf2;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.85em;
+  color: #444fa6;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition: all 0.15s ease;
+}
+
+.live-button:hover {
+  color: #7c85cf;
+  background: #f2f3fa;
+  box-shadow: 0 4px 8px rgba(50, 50, 93, 0.11), 0 1px 6px rgba(0, 0, 0, 0.08);
 }
