@@ -10,6 +10,11 @@ const ProjectsPage = ({ data }) => {
   return (
     <Layout>
       <div>
+        <h1>Projects</h1>
+        <hr />
+        <p>A showcase of the projects I worked on :)</p>
+      </div>
+      <div>
         {JSONDATA.content.map((data, index) => (
           <Project
             key={index}
