@@ -26,25 +26,6 @@ const ProjectsPage = ({ data }) => {
   )
 }
 
-// export const imgQuery = graphql`
-//   query {
-//     allImageSharp {
-//       edges {
-//         node {
-//           fixed {
-//             aspectRatio
-//             base64
-//             height
-//             width
-//             src
-//             srcSet
-//           }
-//         }
-//       }
-//     }
-//   }
-// `
-
 export const imageQuery = graphql`
   query {
     allImageSharp {

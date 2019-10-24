@@ -6,7 +6,7 @@ const Navigation = () => (
     <AniLink style={{ marginRight: "50px" }} fade to="/">
       Home
     </AniLink>
-    <AniLink style={{ marginRight: "25px" }} fade to="/projects">
+    <AniLink style={{ marginRight: "25px" }} fade to="#projects">
       Projects
     </AniLink>
   </div>
