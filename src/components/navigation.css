@@ -3,3 +3,25 @@
   justify-content: flex-end;
   margin-bottom: 50px;
 }
+
+.button {
+  top: 0px;
+  padding: 10px;
+  width: 80px;
+  background: white;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.85em;
+  color: #444fa6;
+  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+  transition: all 0.15s ease;
+}
+
+.button:hover {
+  color: #7c85cf;
+  box-shadow: 0 4px 8px rgba(50, 50, 93, 0.11), 0 1px 6px rgba(0, 0, 0, 0.08);
+  position: relative;
+  top: -2px;
+}
