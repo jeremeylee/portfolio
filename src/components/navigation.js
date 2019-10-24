@@ -1,12 +1,8 @@
 import React from "react"
 import AniLink from "gatsby-plugin-transition-link/AniLink"
-
+import "./navigation.css"
 const Navigation = () => (
-  <div
-    style={{
-      display: "flex",
-    }}
-  >
+  <div class="navigation-container">
     <AniLink fade to="/">
       Home
     </AniLink>
