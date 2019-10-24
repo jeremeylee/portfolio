@@ -1,4 +1,5 @@
 import React from "react"
+import Img from "gatsby-image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons"
 import { faGithub } from "@fortawesome/free-brands-svg-icons"
@@ -10,6 +11,9 @@ const Project = props => {
   const techs = props.tech.split(",")
   return (
     <div class="project-card">
+      <div style={{ width: "100%" }}>
+        <Img fluid={props.image} />
+      </div>
       <div class="content-background">
         <div class="project-content">
           <div class="description">
