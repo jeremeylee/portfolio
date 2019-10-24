@@ -8,7 +8,7 @@
       "source": "https://github.com/jeremeylee/Flow"
     },
     {
-      "title": "Real-Time Messaging",
+      "title": "Real-Time Chat App",
       "description": "Messaging services such a Facebook Messenger, Skype, and Discord are huge. I wanted to take a shot at creating a real-time messaging service as well.",
       "tech": "JavaScript, HTML, CSS, React, Node.js, MongoDB",
       "live": "jeremeychat.herokuapp.com",
