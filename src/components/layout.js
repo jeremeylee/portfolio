@@ -8,8 +8,6 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
-import Header from "./header"
 import Navigation from "../components/navigation"
 import "./layout.css"
 
@@ -38,6 +36,7 @@ const Layout = ({ children }) => {
         }}
       >
         <Navigation />
+
         <main>{children}</main>
         <footer>Created by Jeremey Lee, © {new Date().getFullYear()}</footer>
       </div>

@@ -5,23 +5,34 @@
 }
 
 .button {
-  top: 0px;
   padding: 10px;
-  width: 80px;
-  background: white;
+  width: 85px;
   text-decoration: none;
   text-align: center;
-  border: none;
-  border-radius: 4px;
-  font-size: 0.85em;
+  font-size: 1em;
   color: #444fa6;
-  box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
-  transition: all 0.15s ease;
+  position: relative;
+}
+.button:hover {
+  color: #444fa6;
+}
+.button:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #444fa6;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
 }
 
-.button:hover {
-  color: #7c85cf;
-  box-shadow: 0 4px 8px rgba(50, 50, 93, 0.11), 0 1px 6px rgba(0, 0, 0, 0.08);
-  position: relative;
-  top: -2px;
+.button:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }
