@@ -3,10 +3,10 @@ import AniLink from "gatsby-plugin-transition-link/AniLink"
 import "./navigation.css"
 const Navigation = () => (
   <div class="navigation-container">
-    <AniLink fade to="/">
+    <AniLink style={{ marginRight: "50px" }} fade to="/">
       Home
     </AniLink>
-    <AniLink fade to="/projects">
+    <AniLink style={{ marginRight: "25px" }} fade to="/projects">
       Projects
     </AniLink>
   </div>
