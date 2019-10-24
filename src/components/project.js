@@ -11,8 +11,8 @@ const Project = props => {
   const techs = props.tech.split(",")
   return (
     <div class="project-card">
-      <div style={{ width: "100%" }}>
-        <Img fluid={props.image} />
+      <div class="image">
+        <Img draggable="false" fluid={props.image} />
       </div>
       <div class="content-background">
         <div class="project-content">
