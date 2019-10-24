@@ -30,6 +30,7 @@
 }
 
 .demo-button {
+  top: 0px;
   margin-right: 20px;
   padding: 10px;
   background: #444fa6;
@@ -45,9 +46,12 @@
 .demo-button:hover {
   background: #7c85cf;
   box-shadow: 0 4px 8px rgba(50, 50, 93, 0.11), 0 1px 6px rgba(0, 0, 0, 0.08);
+  position: relative;
+  top: -2px;
 }
 
 .live-button {
+  top: 0px;
   margin-right: 20px;
   padding: 10px;
   background: #e9eaf2;
@@ -64,4 +68,6 @@
   color: #7c85cf;
   background: #f2f3fa;
   box-shadow: 0 4px 8px rgba(50, 50, 93, 0.11), 0 1px 6px rgba(0, 0, 0, 0.08);
+  position: relative;
+  top: -2px;
 }
