@@ -1,7 +1,7 @@
 .navigation-container {
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 50px;
+  margin-left: auto;
 }
 
 .button {

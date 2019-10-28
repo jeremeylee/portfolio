@@ -27,8 +27,8 @@ const Layout = ({ children }) => {
 
   return (
     <>
+      <Navigation />
       <div class="container">
-        <Navigation />
         <div class="site-content">{children}</div>
         <footer>Created by Jeremey Lee, © {new Date().getFullYear()}</footer>
       </div>
