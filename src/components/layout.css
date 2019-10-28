@@ -31,7 +31,10 @@ aside,
 details,
 figcaption,
 figure,
-footer,
+footer {
+  position: fixed;
+  bottom: 0;
+}
 header,
 main,
 menu,
