@@ -584,6 +584,11 @@ abbr[title] {
   cursor: help;
   text-decoration: none;
 }
+
+span {
+  display: block;
+}
+
 thead {
   text-align: left;
 }

@@ -9,9 +9,12 @@ const IndexPage = () => (
     <h1>
       <Typist>Hey, I'm Jeremey Lee</Typist>
     </h1>
-
-    <hr />
-    <p>I'm a software engineer who specializes in full-stack development</p>
+    <p>
+      <span>
+        I'm a software engineer who specializes in full-stack web development
+      </span>
+      <span>This portfolio is permanently under development</span>
+    </p>
   </Layout>
 )
 
