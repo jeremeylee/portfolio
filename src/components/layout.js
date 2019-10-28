@@ -27,17 +27,9 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <div
-        style={{
-          margin: `50px auto`,
-          maxWidth: 960,
-          padding: `0px 1.0875rem 1.45rem`,
-          paddingTop: 0,
-        }}
-      >
-        <Navigation />
-
-        <main>{children}</main>
+      <Navigation />
+      <div class="container">
+        <div class="site-content">{children}</div>
         <footer>Created by Jeremey Lee, © {new Date().getFullYear()}</footer>
       </div>
     </>

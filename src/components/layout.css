@@ -1,3 +1,9 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -5,9 +11,22 @@ html {
   background: #e9ebee;
 }
 body {
-  margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 960px;
+  margin: 0px auto;
+  align-items: center;
+  justify-content: center;
+  max-width: 960px;
+}
+
+.site-content {
+  flex-grow: 1;
 }
 
 .Typist .Cursor--blinking {
@@ -24,17 +43,14 @@ body {
 
 .Typist .Cursor {
   display: inline-block;
+  vertical-align: top;
 }
-
 article,
 aside,
 details,
 figcaption,
 figure,
-footer {
-  position: fixed;
-  bottom: 0;
-}
+foot,
 header,
 main,
 menu,
