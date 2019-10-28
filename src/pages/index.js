@@ -10,10 +10,10 @@ const IndexPage = () => (
       <Typist>Hey, I'm Jeremey Lee</Typist>
     </h1>
     <p>
-      <span>
+      <div>
         I'm a software engineer who specializes in full-stack web development
-      </span>
-      <span>This portfolio is permanently under development</span>
+      </div>
+      <div>This portfolio is permanently under development</div>
     </p>
   </Layout>
 )

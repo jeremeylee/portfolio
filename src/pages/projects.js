@@ -1,6 +1,6 @@
 import React from "React"
 import { graphql } from "gatsby"
-
+import Typist from "react-typist"
 import Layout from "../components/layout"
 import JSONDATA from "../content/portfolio-content.json"
 import Project from "../components/project"
@@ -10,7 +10,9 @@ const ProjectsPage = ({ data }) => {
   return (
     <Layout>
       <div>
-        <h1>Projects</h1>
+        <h1>
+          <Typist>Projects</Typist>
+        </h1>
         <hr />
         <p>A showcase of the projects I worked on :)</p>
       </div>
