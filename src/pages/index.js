@@ -13,7 +13,7 @@ const IndexPage = () => (
       <div>
         I'm a software engineer who specializes in full-stack web development
       </div>
-      <div>This portfolio is permanently under development</div>
+      <div>This portfolio is permanently under development &#128565;</div>
     </p>
   </Layout>
 )
