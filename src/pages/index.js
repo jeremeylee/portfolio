@@ -6,15 +6,20 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
 
-    <h1>
-      <Typist>Hey, I'm Jeremey Lee</Typist>
-    </h1>
-    <p>
-      <div>
+    <div
+      style={{
+        marginTop: "200px",
+      }}
+    >
+      <h1>
+        <Typist>Hey, I'm Jeremey Lee</Typist>
+      </h1>
+      <p>
         I'm a software engineer who specializes in full-stack web development
-      </div>
-      <div>This portfolio is permanently under development &#128565;</div>
-    </p>
+        <br />
+        This portfolio is permanently under development &#128565;
+      </p>
+    </div>
   </Layout>
 )
 
