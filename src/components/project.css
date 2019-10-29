@@ -3,9 +3,10 @@
   justify-content: flex-start;
   box-shadow: 0 50px 100px rgba(50, 50, 93, 0.05),
     0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.1);
-  height: 400px;
-  width: 900px;
+  height: 42vh;
+  width: 65vw;
   overflow: hidden;
+  margin: 0 auto;
   margin-bottom: 50px;
   position: relative;
   justify-content: flex-end;
@@ -13,35 +14,56 @@
 
 .content-background {
   background: white;
-  height: 600px;
-  width: 600px;
-  position: absolute;
+  width: 45vw;
+  /* position: absolute; */
+  z-index: 2;
 }
 .project-content {
-  height: 500px;
-  width: 600px;
-  padding: 50px;
+  width: 45vw;
+  padding: 2em;
+  padding-top: 3.5em;
+  z-index: 2;
 }
 
 .description {
-  min-height: 200px;
+  min-height: 20vh;
 }
 
 .button-container {
-  margin-top: 50px;
+  margin-top: 4vh;
 }
 
 .image {
-  /* user-drag: none; */
   user-select: none;
   -moz-user-select: none;
   -webkit-user-drag: none;
   -webkit-user-select: none;
   -ms-user-select: none;
-  width: 100%;
+  width: 40vw;
+  height: 100vh;
   position: absolute;
   top: 0;
-  left: -250px;
+  left: 0;
+}
+
+@media screen and (max-width: 950px) {
+  .project-card {
+    height: auto;
+    width: 99vw;
+  }
+  .content-background {
+    width: 99vw;
+  }
+
+  .project-content {
+    text-align: center;
+    width: 99vw;
+    padding: 2em;
+  }
+
+  .image {
+    display: none;
+  }
 }
 
 .demo-button {
