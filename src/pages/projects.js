@@ -42,7 +42,7 @@ export const imageQuery = graphql`
     allImageSharp {
       edges {
         node {
-          fluid(maxHeight: 400, maxWidth: 300) {
+          fluid(maxHeight: 400, maxWidth: 900) {
             src
             srcSet
             base64

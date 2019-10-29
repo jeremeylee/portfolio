@@ -8,12 +8,14 @@
   overflow: hidden;
   margin-bottom: 50px;
   position: relative;
+  justify-content: flex-end;
 }
 
 .content-background {
   background: white;
   height: 600px;
   width: 600px;
+  position: absolute;
 }
 .project-content {
   height: 500px;
@@ -27,6 +29,19 @@
 
 .button-container {
   margin-top: 50px;
+}
+
+.image {
+  /* user-drag: none; */
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: -250px;
 }
 
 .demo-button {
@@ -70,14 +85,4 @@
   box-shadow: 0 4px 8px rgba(50, 50, 93, 0.11), 0 1px 6px rgba(0, 0, 0, 0.08);
   position: relative;
   top: -2px;
-}
-
-.image {
-  /* user-drag: none; */
-  user-select: none;
-  -moz-user-select: none;
-  -webkit-user-drag: none;
-  -webkit-user-select: none;
-  -ms-user-select: none;
-  width: 100%;
 }

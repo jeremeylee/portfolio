@@ -29,13 +29,15 @@ const Project = props => {
             <a class="demo-button" target="_blank" href={props.live}>
               Live Demo <FontAwesomeIcon icon={faExternalLinkAlt} />
             </a>
-
             <a class="live-button" target="_blank" href={props.source}>
               <FontAwesomeIcon icon={faGithub} /> View Source
             </a>
           </div>
         </div>
       </div>
+      {/* <div class="image">
+        <Img draggable="false" fluid={props.image} />
+      </div> */}
     </div>
   )
 }
