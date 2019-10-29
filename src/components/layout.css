@@ -5,7 +5,7 @@ html {
 }
 
 html {
-  font-family: sans-serif;
+  font-family: Graphik, Verdana, sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   background: #e9ebee;
@@ -17,12 +17,11 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  min-height: calc(100vh - 50px);
+  min-height: calc(100vh - 60px);
   max-width: 960px;
-  margin: 0px auto;
+  margin: 0 auto;
   align-items: center;
   justify-content: center;
-  /* overflow: hidden; */
 }
 
 .site-content {
